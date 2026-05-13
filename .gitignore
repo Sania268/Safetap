@@ -1,0 +1,18 @@
+.DS_Store
+
+# Xcode user-specific data
+*.xcuserstate
+xcuserdata/
+*.xcbkptlist
+
+# Build products
+DerivedData/
+build/
+Products/
+
+# Swift Package Manager
+.build/
+
+# macOS temporary files
+*.swp
+*.tmp

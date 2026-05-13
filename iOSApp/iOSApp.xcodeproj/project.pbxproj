@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		824FA2B52F9BD794005FC62B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 824FA2B42F9BD794005FC62B /* FirebaseAnalytics */; };
+		824FA2B72F9BD794005FC62B /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = 824FA2B62F9BD794005FC62B /* FirebaseAnalyticsIdentitySupport */; };
+		824FA2B92F9BD794005FC62B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 824FA2B82F9BD794005FC62B /* FirebaseDatabase */; };
+		824FA2BD2F9BD794005FC62B /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 824FA2BC2F9BD794005FC62B /* FirebaseInstallations */; };
+		824FA2BF2F9BD794005FC62B /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 824FA2BE2F9BD794005FC62B /* FirebaseRemoteConfig */; };
+		824FA2C12F9BD794005FC62B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 824FA2C02F9BD794005FC62B /* FirebaseStorage */; };
+		824FA2C32F9BD794005FC62B /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 824FA2C22F9BD794005FC62B /* FirebaseStorageCombine-Community */; };
+		828D25632FB4C16B0068CFC1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 828D25622FB4C16B0068CFC1 /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		824FA29A2F9BCAA9005FC62B /* SafeTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		824FA62A2F9BD852005FC62B /* AdvancedSample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AdvancedSample.xcodeproj; sourceTree = "<group>"; };
+		824FA6312F9BD854005FC62B /* Sample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Sample.xcodeproj; sourceTree = "<group>"; };
+		824FA6362F9BD854005FC62B /* SampleStandaloneWatchApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SampleStandaloneWatchApp.xcodeproj; sourceTree = "<group>"; };
+		824FA63B2F9BD854005FC62B /* SwiftUISample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SwiftUISample.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		824FA6CD2F9BDC94005FC62B /* Exceptions for "iOSApp" folder in "iOSApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 824FA2992F9BCAA9005FC62B /* iOSApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		824FA29C2F9BCAA9005FC62B /* iOSApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				824FA6CD2F9BDC94005FC62B /* Exceptions for "iOSApp" folder in "iOSApp" target */,
+			);
+			path = iOSApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		824FA2972F9BCAA9005FC62B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824FA2B92F9BD794005FC62B /* FirebaseDatabase in Frameworks */,
+				824FA2B72F9BD794005FC62B /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				824FA2C32F9BD794005FC62B /* FirebaseStorageCombine-Community in Frameworks */,
+				824FA2B52F9BD794005FC62B /* FirebaseAnalytics in Frameworks */,
+				824FA2BF2F9BD794005FC62B /* FirebaseRemoteConfig in Frameworks */,
+				824FA2C12F9BD794005FC62B /* FirebaseStorage in Frameworks */,
+				824FA2BD2F9BD794005FC62B /* FirebaseInstallations in Frameworks */,
+				828D25632FB4C16B0068CFC1 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		824FA2912F9BCAA9005FC62B = {
+			isa = PBXGroup;
+			children = (
+				824FA29C2F9BCAA9005FC62B /* iOSApp */,
+				828D25612FB4C16B0068CFC1 /* Frameworks */,
+				824FA29B2F9BCAA9005FC62B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		824FA29B2F9BCAA9005FC62B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				824FA29A2F9BCAA9005FC62B /* SafeTap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824FA62B2F9BD852005FC62B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824FA6322F9BD854005FC62B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824FA6372F9BD854005FC62B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824FA63C2F9BD854005FC62B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828D25612FB4C16B0068CFC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		824FA2992F9BCAA9005FC62B /* iOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824FA2A52F9BCAAC005FC62B /* Build configuration list for PBXNativeTarget "iOSApp" */;
+			buildPhases = (
+				824FA2962F9BCAA9005FC62B /* Sources */,
+				824FA2972F9BCAA9005FC62B /* Frameworks */,
+				824FA2982F9BCAA9005FC62B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				824FA29C2F9BCAA9005FC62B /* iOSApp */,
+			);
+			name = iOSApp;
+			packageProductDependencies = (
+				824FA2B42F9BD794005FC62B /* FirebaseAnalytics */,
+				824FA2B62F9BD794005FC62B /* FirebaseAnalyticsIdentitySupport */,
+				824FA2B82F9BD794005FC62B /* FirebaseDatabase */,
+				824FA2BC2F9BD794005FC62B /* FirebaseInstallations */,
+				824FA2BE2F9BD794005FC62B /* FirebaseRemoteConfig */,
+				824FA2C02F9BD794005FC62B /* FirebaseStorage */,
+				824FA2C22F9BD794005FC62B /* FirebaseStorageCombine-Community */,
+				828D25622FB4C16B0068CFC1 /* FirebaseAuth */,
+			);
+			productName = iOSApp;
+			productReference = 824FA29A2F9BCAA9005FC62B /* SafeTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		824FA2922F9BCAA9005FC62B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					824FA2992F9BCAA9005FC62B = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 824FA2952F9BCAA9005FC62B /* Build configuration list for PBXProject "iOSApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 824FA2912F9BCAA9005FC62B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				824FA2B32F9BD794005FC62B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 824FA29B2F9BCAA9005FC62B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 824FA62B2F9BD852005FC62B /* Products */;
+					ProjectRef = 824FA62A2F9BD852005FC62B /* AdvancedSample.xcodeproj */;
+				},
+				{
+					ProductGroup = 824FA6322F9BD854005FC62B /* Products */;
+					ProjectRef = 824FA6312F9BD854005FC62B /* Sample.xcodeproj */;
+				},
+				{
+					ProductGroup = 824FA6372F9BD854005FC62B /* Products */;
+					ProjectRef = 824FA6362F9BD854005FC62B /* SampleStandaloneWatchApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 824FA63C2F9BD854005FC62B /* Products */;
+					ProjectRef = 824FA63B2F9BD854005FC62B /* SwiftUISample.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				824FA2992F9BCAA9005FC62B /* iOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		824FA2982F9BCAA9005FC62B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		824FA2962F9BCAA9005FC62B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		824FA2A32F9BCAAC005FC62B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		824FA2A42F9BCAAC005FC62B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		824FA2A62F9BCAAC005FC62B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6D8M53XA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SafeTap;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Safe​Tap uses your location during an emergency, even in the background.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Safe​Tap uses your location to help emergency contacts find you.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Safe​Tap uses your location during an emergency.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Safe​Tap records audio during an emergency.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.safetapapp;
+				PRODUCT_NAME = SafeTap;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		824FA2A72F9BCAAC005FC62B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6D8M53XA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SafeTap;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Safe​Tap uses your location during an emergency, even in the background.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Safe​Tap uses your location to help emergency contacts find you.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Safe​Tap uses your location during an emergency.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Safe​Tap records audio during an emergency.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.safetapapp;
+				PRODUCT_NAME = SafeTap;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		824FA2952F9BCAA9005FC62B /* Build configuration list for PBXProject "iOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824FA2A32F9BCAAC005FC62B /* Debug */,
+				824FA2A42F9BCAAC005FC62B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824FA2A52F9BCAAC005FC62B /* Build configuration list for PBXNativeTarget "iOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824FA2A62F9BCAAC005FC62B /* Debug */,
+				824FA2A72F9BCAAC005FC62B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		824FA2B32F9BD794005FC62B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		824FA2B42F9BD794005FC62B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824FA2B32F9BD794005FC62B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		824FA2B62F9BD794005FC62B /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824FA2B32F9BD794005FC62B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		824FA2B82F9BD794005FC62B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824FA2B32F9BD794005FC62B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		824FA2BC2F9BD794005FC62B /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824FA2B32F9BD794005FC62B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		824FA2BE2F9BD794005FC62B /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824FA2B32F9BD794005FC62B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		824FA2C02F9BD794005FC62B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824FA2B32F9BD794005FC62B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		824FA2C22F9BD794005FC62B /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824FA2B32F9BD794005FC62B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		828D25622FB4C16B0068CFC1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824FA2B32F9BD794005FC62B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 824FA2922F9BCAA9005FC62B /* Project object */;
+}
